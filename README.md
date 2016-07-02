@@ -1,2 +1,4 @@
 # CodeEvalSolutions
-Source and testfiles for Code Eval 
+Source and testfiles for my Code Eval solutions
+
+
