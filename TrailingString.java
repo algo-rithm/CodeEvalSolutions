@@ -38,9 +38,7 @@ public class TrailingString {
 			String[] splittedString = splitString.split(challenge);
 			
 			a = splittedString[0];
-			System.out.println(a);
 			b = splittedString[1];
-			System.out.println(b);
 		}
 		
 		
