@@ -7,12 +7,12 @@ import java.util.stream.*;
 
 public class Solution {
 	
-		int numOfLines;
+	private int numOfLines;
 	
-		public Solution(String file, int num){
-		numOfLines = num;
-	    BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-	    readfile(file);
+	public Solution(String file, int num){
+	numOfLines = num;
+	BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+	readfile(file);
 	}
 
     public static void main(String[] args) {
@@ -46,7 +46,6 @@ public class Solution {
     }
     
     private Stream<?> getAnswer(String line){
-    	
     	Stream<String> answer = Stream.of(line);
     	return answer;
     	
