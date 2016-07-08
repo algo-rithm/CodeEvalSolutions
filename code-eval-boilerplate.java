@@ -24,11 +24,11 @@ public class Solution {
     	if(numOfLines == 0){
     		try(Stream<String> lines = Files.lines(Paths.get(testCase))){
     			printResults(lines);
-    		}}
+    		} catch (IOException ioe){ioe.printStackTrace();}}
     	else {
     		try(Stream<String> line = Files.lines(Paths.get(testCase))){
     			printResults(line);            
-    		}}
+    		} catch (IOException ioe){ioe.printStackTrace();}}
     }
             
     private void printResults(Stream<String> streamOfFileLines){ 
